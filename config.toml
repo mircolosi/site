@@ -15,7 +15,7 @@ pygmentCodeFences = true
 
 [Params]
   subtitle = "Ph.D. Student"
-  logo = "img/avatar-icon.png"
+  logo = "img/avatar-home.png"
   favicon = "/tri.png"
   dateFormat = "2 January 2006"
   commit = false
