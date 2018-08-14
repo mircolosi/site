@@ -1,0 +1,4 @@
+baseURL = "http://mircolosi.github.io/"
+languageCode = "en-us"
+title = "Mirco Colosi"
+theme = "beautifulhugo"
