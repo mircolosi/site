@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 baseurl = "https://mircolosi.github.io"
 contentdir    = "content"
 layoutdir     = "layouts"
@@ -102,3 +103,9 @@ pygmentCodeFences = true
 #     name = "Tags"
 #     url = "tags"
 #     weight = 3
+=======
+baseURL = "http://mircolosi.github.io/"
+languageCode = "en-us"
+title = "Mirco Colosi"
+theme = "beautifulhugo"
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c

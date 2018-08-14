@@ -3,8 +3,13 @@ license = "MIT"
 licenselink = "https://github.com/halogenica/Hugo-BeautifulHugo/blob/master/LICENSE"
 description = "A port of Beautiful Jekyll theme"
 tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive"]
+<<<<<<< HEAD
 features = ["blog", "themes", "disqus", "minimal", "responsive"]
 min_version = 0.17
+=======
+features = ["blog", "themes", "disqus", "minimal", "responsive", "staticman"]
+min_version = 0.28
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 
 [author]
     name = "halogenica"
@@ -15,4 +20,7 @@ min_version = 0.17
     author =  "dattali"
     homepage = "http://deanattali.com/beautiful-jekyll/"
     repo = "https://github.com/daattali/beautiful-jekyll"
+<<<<<<< HEAD
 
+=======
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c

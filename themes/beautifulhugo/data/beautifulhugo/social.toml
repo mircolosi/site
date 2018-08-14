@@ -12,21 +12,41 @@ icon = "fa-facebook"
 
 [[social_icons]]
 id = "googleplus"
+<<<<<<< HEAD
 url = "https://www.plus.google.com/%s"
+=======
+url = "https://plus.google.com/%s"
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 title = "Google+"
 icon = "fa-google-plus"
 
 [[social_icons]]
+<<<<<<< HEAD
+=======
+id = "github"
+url = "https://github.com/%s"
+title = "GitHub"
+icon = "fa-github"
+
+[[social_icons]]
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 id = "gitlab"
 url = "https://gitlab.com/%s"
 title = "GitLab"
 icon = "fa-gitlab"
 
 [[social_icons]]
+<<<<<<< HEAD
 id = "github"
 url = "https://github.com/%s"
 title = "GitHub"
 icon = "fa-github"
+=======
+id = "bitbucket"
+url = "https://bitbucket.org/%s"
+title = "Bitbucket"
+icon = "fa-bitbucket"
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 
 [[social_icons]]
 id = "twitter"
@@ -100,3 +120,29 @@ url = "https://itch.io/profile/%s"
 title = "Itch.io"
 icon = "fa-gamepad"
 
+<<<<<<< HEAD
+=======
+[[social_icons]]
+id = "keybase"
+url = "https://keybase.io/%s"
+title = "Keybase"
+icon = "fa-key"
+
+[[social_icons]]
+id = "vk"
+url = "https://vk.com/%s"
+title = "VK"
+icon = "fa-vk"
+
+[[social_icons]]
+id = "paypal"
+url = "https://paypal.me/%s"
+title = "PayPal"
+icon = "fa-paypal"
+
+[[social_icons]]
+id = "telegram"
+url = "https://telegram.me/%s"
+title = "Telegram"
+icon = "fa-telegram"
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c

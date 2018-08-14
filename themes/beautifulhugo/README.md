@@ -8,7 +8,11 @@
     $ cd themes
     $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
 
+<<<<<<< HEAD
 See [the Hugo documentation](http://gohugo.io/themes/installing/) for more information.
+=======
+See [the Hugo documentation](https://gohugo.io/themes/installing/) for more information.
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 
 ## Extra Features
 
@@ -18,6 +22,7 @@ This theme is designed to look great on both large-screen and small-screen (mobi
 
 ### Syntax highlighting
 
+<<<<<<< HEAD
 This theme has support for both server side and client side highlighting.
 
 #### Server side syntax highlighting
@@ -32,14 +37,99 @@ To use this feature install Pygments (`pip install Pygments`) and add `pygmentsu
 Use triple backticks ( ``` ) or triple tilde ( ~~~ ) around code blocks.
 
 Client side highlighting does not require pygments to be installed.
+=======
+This theme has support for either Hugo's lightning fast Chroma, or both server side and client side highlighting. See [the Hugo docs for more](https://gohugo.io/content-management/syntax-highlighting/).
+
+#### Chroma - New server side syntax highlighting
+
+To enable Chroma, add the following to your site parameters:
+
+```
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+```
+
+Then, you can generate a different style by running:
+
+```
+hugo gen chromastyles --style=trac > static/css/syntax.css
+```
+
+#### Pygments - Old server side syntax highlighting
+
+To use this feature install Pygments (`pip install Pygments`) and add the following to your site parameters:
+
+```
+pygmentsStyle = "trac"
+pygmentsUseClassic = true
+```
+
+Pygments is mostly compatable with the newer Chroma. It is slower but has some additional theme options. I recommend Chroma over Pygments.
+
+#### Highlight.js - Client side syntax highlighting
+```
+[Params]
+    useHLJS = true
+```
+
+Client side highlighting does not require pygments to be installed. This will use `highlight.min.css` instead of `syntax.css` for highlighting (effectively disabling Chroma). Highlight.js has a wider range of support for languages and themes, and an alternative highlighting engine.
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 
 ### Disqus support
 
 To use this feature, uncomment and fill out the `disqusShortname` parameter in `config.toml`.
 
+<<<<<<< HEAD
 ### Google Analytics
 
 To add Google Analytics, simply sign up to [Google Analytics](http://www.google.com/analytics/) to obtain your Google Tracking ID, and add this tracking ID to the `googleAnalytics` parameter in `config.toml`.
+=======
+### Staticman support
+
+Add *staticman* configuration section in `config.toml` or `config.yaml`
+
+Sample `config.yaml` configuration
+
+```
+  staticman:
+    api: https://api.staticman.net/v2/entry/<USERNAME>/<REPOSITORY-BLOGNAME>/master/comments
+    pulls: https://github.com/<USERNAME>/<REPOSITORY-BLOGNAME>/pulls
+    recaptcha:
+      sitekey: "6LeGeTgUAAAAAAqVrfTwox1kJQFdWl-mLzKasV0v"
+      secret: "hsGjWtWHR4HK4pT7cUsWTArJdZDxxE2pkdg/ArwCguqYQrhuubjj3RS9C5qa8xu4cx/Y9EwHwAMEeXPCZbLR9eW1K9LshissvNcYFfC/b8KKb4deH4V1+oqJEk/JcoK6jp6Rr2nZV4rjDP9M7nunC3WR5UGwMIYb8kKhur9pAic="
+```
+
+You must also configure the `staticman.yml` in you blog website.
+
+```
+comments:
+  allowedFields: ["name", "email", "website", "comment"]
+  branch            : "master"
+  commitMessage     : "New comment in {options.slug}"
+  path: "data/comments/{options.slug}"
+  filename          : "comment-{@timestamp}"
+  format            : "yaml"
+  moderation        : true
+  requiredFields    : ['name', 'email', 'comment']
+  transforms:
+    email           : md5
+  generatedFields:
+    date:
+      type          : "date"
+      options:
+        format      : "iso8601"
+  reCaptcha:
+    enabled: true
+    siteKey: "6LeGeTgUAAAAAAqVrfTwox1kJQFdWl-mLzKasV0v"
+    secret: "hsGjWtWHR4HK4pT7cUsWTArJdZDxxE2pkdg/ArwCguqYQrhuubjj3RS9C5qa8xu4cx/Y9EwHwAMEeXPCZbLR9eW1K9LshissvNcYFfC/b8KKb4deH4V1+oqJEk/JcoK6jp6Rr2nZV4rjDP9M7nunC3WR5UGwMIYb8kKhur9pAic="
+```
+
+
+
+### Google Analytics
+
+To add Google Analytics, simply sign up to [Google Analytics](https://www.google.com/analytics/) to obtain your Google Tracking ID, and add this tracking ID to the `googleAnalytics` parameter in `config.toml`.
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 
 ### Commit SHA on the footer
 
@@ -60,7 +150,11 @@ See at [xor-gate/xor-gate.org](https://github.com/xor-gate/xor-gate.org) an exam
   
 ## About
 
+<<<<<<< HEAD
 This is a port of the Jekyll theme [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/) by [Dean Attali](http://deanattali.com/aboutme#contact). It supports most of the features of the original theme.
+=======
+This is a port of the Jekyll theme [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll/) by [Dean Attali](https://deanattali.com/aboutme#contact). It supports most of the features of the original theme.
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 
 ## License
 

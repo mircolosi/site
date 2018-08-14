@@ -3,7 +3,11 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         {{ with .Content }}
+<<<<<<< HEAD
           <div class="">
+=======
+          <div class="well">
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
             {{.}}
           </div>
         {{ end }}
@@ -19,6 +23,12 @@
                   {{ .Params.subtitle }}
                   </h3>
                 {{ end }}
+<<<<<<< HEAD
+=======
+                {{ if .Params.image }}
+                <img src="{{ .Params.image }}" class="img-title" />
+                {{ end }}
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
               </a>
 
               {{ partial "post_meta.html" . }}
@@ -32,11 +42,19 @@
               </div>
 
               {{ if .Params.tags }}
+<<<<<<< HEAD
                 <span class="post-meta">
                 {{ range .Params.tags }}
                   #<a href="{{ $.Site.LanguagePrefix }}/tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
                 {{ end }}
                 </span>
+=======
+                <div class="blog-tags">
+                  {{ range .Params.tags }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
               {{ end }}
             </article>
           {{ end }}
@@ -46,12 +64,20 @@
           <ul class="pager main-pager">
             {{ if .Paginator.HasPrev }}
               <li class="previous">
+<<<<<<< HEAD
                 <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}">&larr; {{ i18n "newerPosts" }}</a>
+=======
+                <a href="{{ .Paginator.Prev.URL | absURL }}">&larr; {{ i18n "newerPosts" }}</a>
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
               </li>
             {{ end }}
             {{ if .Paginator.HasNext }}
               <li class="next">
+<<<<<<< HEAD
                 <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}">{{ i18n "olderPosts" }} &rarr;</a>
+=======
+                <a href="{{ .Paginator.Next.URL | absURL }}">{{ i18n "olderPosts" }} &rarr;</a>
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
               </li>
             {{ end }}
           </ul>
@@ -60,4 +86,7 @@
     </div>
   </div>
 {{ end }}
+<<<<<<< HEAD
 
+=======
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c

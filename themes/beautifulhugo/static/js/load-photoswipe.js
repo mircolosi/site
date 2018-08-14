@@ -29,7 +29,11 @@ $( document ).ready(function() {
 				title 	: $title,
 				msrc	: $msrc
 			};
+<<<<<<< HEAD
 			console.log("Using pre-defined dimensions for " + $src);
+=======
+			//console.log("Using pre-defined dimensions for " + $src);
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 		// if not, set temp default size then load the image to check actual size
 		} else {
 			var item = {
@@ -39,7 +43,11 @@ $( document ).ready(function() {
 				title 	: $title,
 				msrc	: $msrc
 			};
+<<<<<<< HEAD
 			console.log("Using default dimensions for " + $src);
+=======
+			//console.log("Using default dimensions for " + $src);
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 			// load the image to check its dimensions
 			// update the item as soon as w and h are known (check every 30ms)
 			var img = new Image(); 
@@ -51,7 +59,11 @@ $( document ).ready(function() {
 					clearInterval(wait);
 					item.w = w;
 					item.h = h;
+<<<<<<< HEAD
 					console.log("Got actual dimensions for " + img.src);
+=======
+					//console.log("Got actual dimensions for " + img.src);
+>>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 				}
 			}, 30);
 	   	}
