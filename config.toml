@@ -1,4 +1,4 @@
-baseurl = "https://mircolosi.gitlab.io"
+baseurl = "https://mircolosi.github.io"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
