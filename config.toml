@@ -44,8 +44,8 @@ pygmentCodeFences = true
     weight = 2
 
 [[menu.main]]
-    name = "Pubblications"
-    url = "pubblications"
+    name = "Publications"
+    url = "publications"
     weight = 3
 
 [[menu.main]]
