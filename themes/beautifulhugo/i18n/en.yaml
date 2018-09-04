@@ -1,17 +1,12 @@
 # Content
 - id: dateFormat
   translation: "January 2, 2006"
-<<<<<<< HEAD
-- id: postedOnDate
-  translation: "Posted on {{ .Count }}"
-=======
 - id: shortdateFormat
   translation: "Jan 2, 2006 15:04:05"
 - id: postedOnDate
   translation: "Posted on {{ .Count }}"
 - id: lastModified
   translation: "(Last modified on {{ .Count }})"
->>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 - id: translationsLabel
   translation: "Other languages: "
 - id: translationsSeparator
@@ -26,14 +21,10 @@
   translation: "Previous Post"
 - id: nextPost
   translation: "Next Post"
-<<<<<<< HEAD
-=======
 - id: readTime
   translation: "minutes"
 - id: words
   translation: "words"
-
->>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
 
 # 404 page
 - id: pageNotFound
@@ -55,8 +46,6 @@
 - id: gcseClose
   translation: "Close"
 
-<<<<<<< HEAD
-=======
 # Staticman
 - id: noComment
   translation: "No comment"
@@ -73,5 +62,3 @@
 - id: yourWebsite
   translation: "You website"
 
-
->>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c

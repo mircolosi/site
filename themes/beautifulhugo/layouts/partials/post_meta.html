@@ -1,7 +1,4 @@
 <span class="post-meta">
-<<<<<<< HEAD
-  {{ default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format | i18n "postedOnDate" }}
-=======
   {{ $lastmodstr := default (i18n "dateFormat") .Site.Params.dateformat | .Lastmod.Format }}
   {{ $datestr := default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
   <i class="fa fa-calendar-o"></i>&nbsp;{{ $datestr | i18n "postedOnDate"}}
@@ -28,7 +25,6 @@
       {{ end }}
     {{ end }}
   {{ end }}
->>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
   {{ if .IsTranslated -}}
     {{- $sortedTranslations := sort .Translations "Site.Language.Weight" -}}
     {{- $links := apply $sortedTranslations "partial" "translation_link.html" "." -}}

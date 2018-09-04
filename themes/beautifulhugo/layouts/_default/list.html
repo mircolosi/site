@@ -28,26 +28,14 @@
             <article class="post-preview">
               <a href="{{ .Permalink }}">
                 <h2 class="post-title">{{ .Title }}</h2>
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
                 {{ if .Params.subtitle }}
                   <h3 class="post-subtitle">
                     {{ .Params.subtitle }}
                   </h3>
                 {{ end }}
               </a>
-<<<<<<< HEAD
-    
-              <p class="post-meta">
-                {{ default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format | i18n "postedOnDate" }}
-=======
-
               <p class="post-meta">
                 {{ partial "post_meta.html" . }}
->>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
               </p>
               <div class="post-entry">
                 {{ if .Truncated }}
@@ -57,17 +45,6 @@
                   {{ .Content }}
                 {{ end }}
               </div>
-<<<<<<< HEAD
-    
-              {{ if .Params.tags }}
-                <span class="post-meta">
-                  {{ range .Params.tags }}
-                    #<a href="{{ $.Site.LanguagePrefix }}/tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
-                  {{ end }}
-                </span>
-              {{ end }}
-    
-=======
 
               {{ if .Params.tags }}
                 <div class="blog-tags">
@@ -77,7 +54,6 @@
                 </div>
               {{ end }}
 
->>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
             </article>
           {{ end }}
         </div>
@@ -85,20 +61,12 @@
           <ul class="pager main-pager">
             {{ if .Paginator.HasPrev }}
               <li class="previous">
-<<<<<<< HEAD
-                <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}">&larr; {{ i18n "newerPosts" }}</a>
-=======
                 <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; {{ i18n "newerPosts" }}</a>
->>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
               </li>
             {{ end }}
             {{ if .Paginator.HasNext }}
               <li class="next">
-<<<<<<< HEAD
-                <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}">{{ i18n "olderPosts" }} &rarr;</a>
-=======
                 <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}/">{{ i18n "olderPosts" }} &rarr;</a>
->>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
               </li>
             {{ end }}
           </ul>
@@ -107,7 +75,4 @@
     </div>
   </div>
 {{ end }}
-<<<<<<< HEAD
 
-=======
->>>>>>> b67ad489c1c4ab079a5d96ccc5fa426cdd117f7c
