@@ -8,7 +8,7 @@
 <div>
   <p style="text-align:left;">
     <img src="img/mirco.jpg" style="float:right; margin-top: 0.75em; margin-left: 1.5em; margin-right: 0px; padding: 5px; border: 1px solid #ddd" />
-    I am a Ph.D. student (2017-now) at the Department of Computer, Control and Management Engineering *Antonio Ruberti* at *Sapienza* University of Rome.
+    I am a Ph.D. student (2017-now) at the Department of Computer, Control and Management Engineering <i>Antonio Ruberti</i> at <i>Sapienza</i> University of Rome.
     <br/>
     My Ph.D. is sponsored by Robert Bosch GmbH and I am working at Robert Bosch Campus, Renningen, Germany, in the department of Robot Navigation and Perception (CR/AER1) held by <a hredf="https://sites.google.com/site/alexanderkleiner/">Dr. Alexander Kleiner</a> and in collaboration with  <a href="http://www2.informatik.uni-freiburg.de/~arras/">Dr. Kai Oliver Arras</a>.
     <br/><br/>
