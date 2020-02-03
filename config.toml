@@ -11,10 +11,13 @@ metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
 
+[blackfriday]
+  smartypants = false
+
 [Params]
   subtitle = "Ph.D. Student"
   logo = "img/avatar-home.png"
-  favicon = "/tri.png"
+  favicon = "resources/tri.png"
   dateFormat = "2 January 2006"
   commit = false
   rss = false
@@ -24,7 +27,7 @@ pygmentCodeFences = true
 
 [Author]
   name = "Mirco Colosi"
-  email = "colosi@diag.uniroma1.it"
+  email = "colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com"
   facebook = "mirco.colosi"
   gitlab = "mircolosi"
   github = "mircolosi"
@@ -58,4 +61,3 @@ pygmentCodeFences = true
     name = "Teaching"
     url = "teaching"
     weight = 3
-
