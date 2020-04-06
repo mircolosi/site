@@ -23,7 +23,8 @@ pygmentCodeFences = true
   rss = false
   comments = false
 
-
+[markup.goldmark.renderer]
+  unsafe= true
 
 [Author]
   name = "Mirco Colosi"

@@ -27,7 +27,7 @@ the state-of-the-art systems.
 
 
 __DOI__: [10.1109/IROS40897.2019.8968182](https://doi.org/10.1109/IROS40897.2019.8968182)  
-[Link to the article](/resources/08968182.pdf)  
+[Link to the article](/resources/2019_paper_colosi_slam_state_machine.pdf)  
 BibTex:  
 <pre>
 @inproceedings{colosi2019better,
