@@ -31,7 +31,7 @@ __DOI__: [10.1109/IROS40897.2019.8968182](https://doi.org/10.1109/IROS40897.2019
 BibTex:  
 <pre>
 @inproceedings{colosi2019better,
-  title={Better Lost in Transition Than Lost in Space: SLAM State Machine},
+  title={{Better Lost in Transition Than Lost in Space: SLAM State Machine}},
   author={Colosi, Mirco and Haug, Sebastian and Biber, Peter and Arras, Kai O and Grisetti, Giorgio},
   booktitle={2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={362--369},
