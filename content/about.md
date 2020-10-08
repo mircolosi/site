@@ -10,7 +10,7 @@ Ph.D. Student in Engineering in Computer Science.
 During my Ph.D. I am working both at *Sapienza* University of Rome and at Robert Bosch Campus, Renningen, Germany.
 The main topic of my research is life-long SLAM focusing on resource awareness.  
 My advisor is [Prof. Giorgio Grisetti](https://sites.google.com/dis.uniroma1.it/grisetti).
-You can find here [my updated CV](/resources/cv_mirco_colosi.pdf) for further details.
+You can find here [my updated CV](/resources/mirco_colosi_cv.pdf) for further details.
 
 ### June 2018 – NOW
 I am doing a long term abroad period in Germany and my focus is the **SLAM State Machine**  and the **SLAM unification**. Other research topics have been RGB-D SLAM and Multi-Sensor Calibration.
@@ -30,6 +30,3 @@ Supervised by [Prof. Giorgio Grisetti](https://sites.google.com/dis.uniroma1.it/
 I achieved my Bachelor Degree in Computer Engineering at University of Catania (2010-2014).
 The title of my thesis was  
 &nbsp;&nbsp;&nbsp;&nbsp; *Progettazione e sviluppo di un sistema per l’obstacle avoidance senza target tracking*
-
-
-# [My CV](/resources/cv_mirco_colosi.pdf)
